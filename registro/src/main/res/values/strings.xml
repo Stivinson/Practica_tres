@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Registro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="ciudades">
+        <item> </item>
+        <item> Medellin (Ant.)</item>
+        <item> Bogotá, D.C. (Cund.)</item>
+
+        <item>Abejorral (Ant.)</item>
+
+        <item>Acacías (Met.)</item>
+
+        <item>Acandí (Cho.)</item>
+        <item> Agua de Dios (Cund.)</item>
+
+        <item> Aguachica (Ces.)</item>
+
+        <item> Aguadas (Cal.)</item>
+
+        <item> Aguazul (Casa.)</item>
+
+        <item> Albán (Cund.)</item>
+
+        <item> Alcalá (Va.)</item>
+
+        <item>  Amagá (Ant.)</item>
+
+        <item>  Ambalema (Tol.)</item>
+
+        <item> Anapoima (Cund.)</item>
+
+        <item> Andes (Ant.)</item>
+
+        <item> Anolaima (Cund.)</item>
+
+        <item> Anserma (Cal.)</item>
+
+        <item>  Ansermanuevo (Va.)</item>
+
+        <item>  Apartadó (Ant.)</item>
+
+        <item>  Apulo (Cund.)</item>
+
+        <item>  Aquitania (Boy.)</item>
+
+        <item>  Arauca (Ara.)</item>
+
+        <item>  Arauquita (Ara.)</item>
+
+        <item>  Arboletes (Ant.)</item>
+
+        <item>  Armenia (Quind.)</item>
+
+        <item>  Ayapel (Cor.)</item>
+
+        <item>  Bahía Solano (Cho.)</item>
+
+        <item> Barbosa (Sant.)</item>
+
+        <item>  Barcelona (Quin.)</item>
+
+        <item> Barichara (Sant.)</item>
+
+        <item>  Barrancabermeja (Sant.)</item>
+
+        <item>  Barrancas (Guaj.)</item>
+
+        <item>  Barranquilla (Atl.)</item>
+
+        <item>  Belén de Umbría (Ris.)</item>
+
+        <item>  Bolívar (Va.)</item>
+
+        <item> Bolombolo (Ant.)</item>
+
+        <item> Bucaramanga (Sant.)</item>
+
+        <item>  Buenaventura (Va.)</item>
+
+        <item>  Buga (Va.)</item>
+
+        <item>  Cachipay (Cund.)</item>
+
+        <item>  Caicedonia (Va.)</item>
+
+        <item>  Calarcá (Quin.)</item>
+
+        <item> Cali (Va.)</item>
+
+        <item> Capellanía (Cund.)</item>
+
+        <item> Capitanejo (Sant.)</item>
+
+        <item> Capurganá (Cho.)</item>
+
+        <item> Cáqueza (Cund.)</item>
+
+        <item> Carmen de Apicalá (Tol.)</item>
+
+        <item> Cartagena (Bol.)</item>
+
+        <item> Cartago (Va.)</item>
+
+        <item>  Caucasia (Ant.)</item>
+
+        <item>  Cereté (Cor.)</item>
+
+        <item> Cerrito (Sant.)</item>
+        <item>  Ciénaga (Mag.)</item>
+
+        <item>  Cimitarra (Sant.)</item>
+
+        <item> Circasia (Quin.)</item>
+
+        <item>  Cisneros (Ant.)</item>
+
+        <item>  Ciudad Bolívar (Ant.)</item>
+
+        <item>  Concepción (Sant.)</item>
+
+        <item>  Contratación (Sant.)</item>
+
+        <item>  Corozal (Suc.)</item>
+
+        <item>  Coveñas (Suc.)</item>
+
+        <item>  Cravo Norte (Ara.)</item>
+    </string-array>
+    <string-array name="mes">
+
+        <item> enero</item>
+
+        <item> febrero</item>
+
+        <item>  Concepción (Sant.)</item>
+
+        <item>  Contratación (Sant.)</item>
+
+        <item>  Corozal (Suc.)</item>
+
+        <item>  Coveñas (Suc.)</item>
+
+        <item>  Cravo Norte (Ara.)</item>
+    </string-array>
+</resources>

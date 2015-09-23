@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">punto2</string>
+
+        <string name="hello_world">Hello world!</string>
+        <string name="action_settings">Settings</string>
+        <string name="mensaje">Calculadora</string>
+        <string name="boton">Calcular</string>
+        <string name="numero1">Numero 1</string>
+        <string name="numero2">Numero2</string>
+    </resources>

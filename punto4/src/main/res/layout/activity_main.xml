@@ -1,0 +1,139 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="48dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Area Figuras Geometricas"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/eBase"
+            android:hint="Base"
+            android:inputType="numberDecimal"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/eAltura"
+            android:hint="Altura"
+
+            android:inputType="numberDecimal"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/eRadio"
+                android:hint="Radio"
+
+                android:inputType="numberDecimal"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/eLado"
+                android:hint="Lado"
+                android:inputType="numberDecimal"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <RadioGroup
+        android:id="@+id/rdgGrupo"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_span="3">
+        <RadioButton
+            android:id="@+id/rdbuno"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Triangulo"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/rdbdos"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Rectangulo"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/rdbtres"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Circulo"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:id="@+id/rdbcuatro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuadrado"
+            android:onClick="onRadioButtonClicked"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/bBoton"
+        android:text="Calcular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="Resultado"
+        android:id="@+id/tresul"
+        android:textSize="25dp"
+        android:textColor="@color/gray"
+        />
+
+
+</LinearLayout>
+</ScrollView>

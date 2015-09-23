@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
                                 if(cine.isChecked()==true){
                                     hobbies2.setText("Ir a Cine");
                                     if(video.isChecked()==true){
-                                        hobbies3.setText("");
+                                        hobbies3.setText("Video Juegos");
                                     }else hobbies3.setText("");
                                 }else if(video.isChecked()==true){
                                     hobbies2.setText("Video Juegos");

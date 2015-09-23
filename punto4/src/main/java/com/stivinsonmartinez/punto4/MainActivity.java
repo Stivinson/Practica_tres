@@ -2,6 +2,7 @@ package com.stivinsonmartinez.punto4;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Editable;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -33,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
         rec = (RadioButton) findViewById(R.id.rdbdos);
         rad = (RadioButton) findViewById(R.id.rdbtres);
         cua = (RadioButton) findViewById(R.id.rdbcuatro);
-        base.setEnabled(false);
-        altura.setEnabled(false);
-        radio.setEnabled(false);
-        lado.setEnabled(false);
+        base.setVisibility(View.INVISIBLE);
+        altura.setVisibility(View.INVISIBLE);
+        radio.setVisibility(View.INVISIBLE);
+        lado.setVisibility(View.INVISIBLE);
         calcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -85,6 +86,10 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 }
+                base.setText("");
+                altura.setText("");
+                radio.setText("");
+                lado.setText("");
 
             }
         });
@@ -94,35 +99,34 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.rdbuno:
                 if (checked) {
-                    base.setEnabled(true);
-                    altura.setEnabled(true);
-                    radio.setEnabled(false);
-                    lado.setEnabled(false);
+                    base.setVisibility(View.VISIBLE);
+                    altura.setVisibility(View.VISIBLE);
+                    radio.setVisibility(View.INVISIBLE);
+                    lado.setVisibility(View.INVISIBLE);
                 }
                 break;
             case R.id.rdbdos:
                 if (checked) {
-                    base.setEnabled(true);
-                    altura.setEnabled(false);
-                    radio.setEnabled(false);
-                    lado.setEnabled(true);
+                    base.setVisibility(View.VISIBLE);
+                    altura.setVisibility(View.VISIBLE);
+                    radio.setVisibility(View.INVISIBLE);
+                    lado.setVisibility(View.INVISIBLE);
                 }
                 break;
             case R.id.rdbtres:
                 if (checked) {
-
-                    base.setEnabled(false);
-                    altura.setEnabled(false);
-                    radio.setEnabled(true);
-                    lado.setEnabled(false);
+                    base.setVisibility(View.INVISIBLE);
+                    altura.setVisibility(View.INVISIBLE);
+                    radio.setVisibility(View.VISIBLE);
+                    lado.setVisibility(View.INVISIBLE);
                 }
                 break;
             case R.id.rdbcuatro:
                 if (checked) {
-                    base.setEnabled(false);
-                    altura.setEnabled(false);
-                    radio.setEnabled(false);
-                    lado.setEnabled(true);
+                    base.setVisibility(View.INVISIBLE);
+                    altura.setVisibility(View.INVISIBLE);
+                    radio.setVisibility(View.INVISIBLE);
+                    lado.setVisibility(View.VISIBLE);
                 }
                 break;
             default:

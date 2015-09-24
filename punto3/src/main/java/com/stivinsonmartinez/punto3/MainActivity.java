@@ -44,8 +44,12 @@ public class MainActivity extends AppCompatActivity {
                     numero2 = Double.parseDouble(NUM2.getText().toString());
                     numero3 = Double.parseDouble(NUM3.getText().toString());
                     numero4 = Double.parseDouble(NUM4.getText().toString());
-                    resultado = (numero1 * 0.15) + (numero2 * 0.1) + (numero3 * 0.4) + (numero4 * 0.35);
-                    resul.setText(String.valueOf(resultado));
+                    if(numero1>5 || numero2>5 || numero3>5 || numero4>5){
+                        resul.setText("Numeros Invalidos");
+                    }else {
+                        resultado = (numero1 * 0.15) + (numero2 * 0.1) + (numero3 * 0.4) + (numero4 * 0.35);
+                        resul.setText(String.valueOf(resultado));
+                    }
                 }
         }
     });

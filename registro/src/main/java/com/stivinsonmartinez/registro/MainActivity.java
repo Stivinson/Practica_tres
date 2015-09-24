@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
         final EditText nombre = (EditText) findViewById(R.id.eNombre);
         final EditText apellido = (EditText) findViewById(R.id.eApellido);
         final EditText cedula = (EditText) findViewById(R.id.eCC);
